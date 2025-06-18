@@ -1379,9 +1379,9 @@ static void aurora_pa_range(unsigned long start, unsigned long end,
 	unsigned long range_end;
 	unsigned long flags;
 
-	/*
-	 * round start and end adresses up to cache line size
-	 */
+       /*
+        * round start and end addresses up to cache line size
+        */
 	start &= ~(CACHE_LINE_SIZE - 1);
 	end = ALIGN(end, CACHE_LINE_SIZE);
 

@@ -2979,8 +2979,8 @@ TRAMP_REAL_BEGIN(rfscv_flush_fallback)
 	/* order ld/st prior to dcbt stop all streams with flushing */
 	sync
 
-	/*
-	 * The load adresses are at staggered offsets within cachelines,
+       /*
+        * The load addresses are at staggered offsets within cachelines,
 	 * which suits some pipelines better (on others it should not
 	 * hurt).
 	 */
