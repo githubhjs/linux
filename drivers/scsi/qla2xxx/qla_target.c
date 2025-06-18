@@ -1956,7 +1956,7 @@ static void qlt_24xx_retry_term_exchange(struct scsi_qla_host *vha,
 }
 
 /* drop cmds for the given lun
- * XXX only looks for cmds on the port through which lun reset was recieved
+ * XXX only looks for cmds on the port through which lun reset was received
  * XXX does not go through the list of other port (which may have cmds
  *     for the same lun)
  */
